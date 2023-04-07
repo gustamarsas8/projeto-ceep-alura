@@ -1,0 +1,123 @@
+.task {
+    background-color: rgba(37, 37, 37, 0.187);
+    color: #F6F1D1;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding: 1rem 0.5rem;
+    font-size: 14px;
+    border-radius: 5px;
+    align-items: center;
+}
+.todo-list {
+    background-color: rgb(30, 85, 169);
+    padding: 15px;
+    border-radius:  8px;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    min-height: 200px;
+    box-shadow: 1px 1px 8px 4px #00000035;
+}
+ul.list {
+    list-style: none;
+    padding: 0px;
+}
+h1.title {
+    text-align: center;
+    color: #ffffff;
+    font-size: 36px;
+}
+input.form-input {
+    width: 250px!important;
+    height: 30px;
+    border-radius: 5px;
+}
+input[type="datetime-local"] {
+    width: 150px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+button.form-button {
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: rgb(14, 44, 91);
+    font-size: 18px;
+    border: 2px solid rgb(9, 28, 60);
+    box-shadow: 1px 1px 4px 3px #00000035;
+}
+button.form-button:hover {
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: rgb(9, 27, 55);
+}
+button.check-button {
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none!important;
+    height: 35px;
+    border: none;
+    box-shadow: 1px 1px 4px 3px #00000035;
+}
+button.check-button:hover {
+    background-color: #bfbbbb;
+}
+
+button.check-button-delete {
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px;
+    height: 35px;
+    background-color: #bb1010;
+    color: white;
+    border: none;
+    box-shadow: 1px 1px 4px 3px #00000035;
+}
+button.check-button-delete:hover {
+    background-color: #880909;
+    color: white;
+}
+p.content {
+    margin-right: 45px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+p.content-data {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border-top: 1px solid #ffffff3d;
+    padding-top: 10px;
+}
+html {
+    background-color: #810aac47;
+}
+.task.done .content {
+    text-decoration: line-through;
+  }
+  .task.done .check-button {
+    background-color: #087b23;
+    color: #ffffff;
+    border: none;
+    box-shadow: 1px 1px 4px 3px #00000035;
+}
+  .task.done .check-button:hover {
+    background-color: #094d1c;
+  }
+  li.done.task {
+    background-color: rgba(37, 37, 37, 0.62);
+}
+form.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
